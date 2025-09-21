@@ -13,12 +13,12 @@ A simple CLI-based file transfer tool for server-client file upload and download
 
 ### Install via pip (from GitHub)
 ```bash
-pip install git+https://github.com/username/filetransfercli.git
+pip install git+https://github.com/eknvarli/filetransfercli.git
 ```
 
 ### Or install locally from source
 ```bash
-git clone https://github.com/username/filetransfercli.git
+git clone https://github.com/eknvarli/filetransfercli.git
 cd filetransfercli
 pip install .
 ```
@@ -70,4 +70,4 @@ filetransfercli download --server 192.168.1.10 server_file.txt downloaded_file.t
 - tqdm (for progress bars)
 
 ## License
-MIT License
+GPLv3.0 License
